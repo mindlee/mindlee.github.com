@@ -396,7 +396,7 @@ div.page-content {
   ol { 
     @include font-size(12px);
     // padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     list-style: decimal;
     margin-left: 0;
     li {
@@ -502,7 +502,7 @@ body.theme-base-01 {
 
 header.main-header { 
   padding: 1em 0;
-  @include MQ(M) { padding: 2em 0; }
+  @include MQ(M) { padding: 2em 0 0 0; }
 }
 footer.main-footer {
   padding: 1em 0;
@@ -510,7 +510,7 @@ footer.main-footer {
 }
 .page-content {
   padding: 1em 0;
-  @include MQ(M) { padding: 2em 0; }
+  @include MQ(M) { padding: 1em 0; }
 }
 
 
@@ -626,7 +626,7 @@ div.post {
   border-bottom: 1px $base-05 solid;
   @include MQ(M) {
 
-    padding-bottom: 2em;  
+    padding-bottom: 1em;
   }
 
   &:last-child {
@@ -639,7 +639,7 @@ p.post-meta {
   @include font-size(12px);
   overflow: hidden;
   display: block;
-  padding: 1em 0;
+  padding: 0;
   color: #7A7A7A;
   @include MQ(M) {
     @include font-size(16px);

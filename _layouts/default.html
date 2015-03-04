@@ -12,6 +12,9 @@
         <!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
 
+<!-- comments-->
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/comment.css">
+
         <!-- Modernizr js -->
         <script async src="{{ site.baseurl }}/assets/js/modernizr.js"></script>    
 
@@ -32,8 +35,10 @@
             </div>
         </header>
         {{ content }}
+
         <footer class="main-footer">
             <div class="wc-container">
+
                 <div class="column one">
                     {% include footer-links.html %}                    
                 </div>
@@ -63,6 +68,30 @@
         <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/jquery.min.js"><\/script>')</script>
         <!-- Site js -->
         <script src="{{ site.baseurl }}/assets/js/all.js"></script>
+        <!-- mathjax -->
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            processEscapes: true
+            }
+        });
+        </script>
+      <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'mindlee';
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        <script type="text/javascript">
+
         <!-- Google analytics  -->
         {% include google-analytics.html %}
     </body>        
