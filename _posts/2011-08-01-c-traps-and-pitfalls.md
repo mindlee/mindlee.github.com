@@ -7,7 +7,6 @@ permalink: /2011/08/01/c-traps-and-pitfalls/
 views:
   - 7809
 categories:
-  - C/C++
   - 技术启蒙
 tags:
   - C/C++
