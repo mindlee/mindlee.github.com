@@ -4,7 +4,7 @@
 baseurl: 
 
 # Site live URL
-url: http://mindlee.github.io
+url: mindlee.com
 
 # Localhost 
 #url: http://127.0.0.1:4000  
@@ -23,7 +23,7 @@ harmony:
   author: # Author details
     name: Wei Li
     email: liwei.day@gmail.com
-    url: http://mindlee.github.io
+    url: http://mindlee.com
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-24859308-2
