@@ -1,7 +1,7 @@
 ---
 title: 计算几何学(Computational Geometry)
-author: 酷~行天下
-excerpt: '<p>&#160;&#160;&#160;&#160; 如图 a)→b) 过程中，原本p<sub>2</sub>在栈S中，到 b) 时，根据p<sub>1</sub>p<sub>3</sub>，p<sub>1</sub>p<sub>2</sub>的叉积计算，得知 p<sub>1</sub>p<sub>3</sub> 在 p<sub>1</sub>p<sub>2</sub> 的顺时针方向行，所以 p<sub>2 </sub>不在CH（Q）中，所以 p<sub>2</sub> 出栈，p<sub>3</sub>入栈，整个算法都循环这个过程，后续完整图示：</p>'
+author: Wei Li
+excerpt: 有 n 个点的集合 Q，找出最近的两点，这一问题可以应用于交通控制等系统。在空中或海洋交通控制系统中，需要发现两个距离最近的交通工具，以便检测出可能发生的相撞事故。
 layout: post
 permalink: /2011/11/27/computational-geometry/
 views:

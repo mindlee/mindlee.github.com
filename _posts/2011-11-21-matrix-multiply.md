@@ -1,7 +1,7 @@
 ---
 title: 矩阵乘法(Matrix Multiply)
 author: Wei Li
-excerpt: '<p>&#160;&#160;&#160;&#160; 两个矩阵 A，B：A 的列数等于 B 的行数，则A、B可以相乘。即，如果 A = （a<sub>ij</sub>）是一个m * n的矩阵，B =（b<sub>jk</sub>）是一个 n * p 的矩阵，则它们的乘积 C = AB 是 m * p 矩阵 C = （c<sub>ik</sub>）。</p>'
+excerpt: 学过计算机图形学，会发现，不管是二维图形的平移，旋转，缩放，三维图形的取景变换，投影变换等都是通过矩阵乘法来实现。
 layout: post
 permalink: /2011/11/21/matrix-multiply/
 views:
