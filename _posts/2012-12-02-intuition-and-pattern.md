@@ -1,7 +1,6 @@
 ---
 title: 直觉与模式
 author: Wei Li
-excerpt: 人类可以把接触到的所有经验综合成一个整体，而这样的整体比任何单个部分都要强大。
 layout: post
 permalink: /2012/12/02/intuition-and-pattern/
 views:
