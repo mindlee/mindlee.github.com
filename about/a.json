@@ -1,0 +1,46 @@
+{
+    "threads":
+    [{
+        "author_key" : "1",
+        "thread_key" : "500d0629448f04782b00000a",
+        "title" : "多说自定义导入格式说明",
+        "url" : "http://duoshuo.com/01/",
+        "content" : "文章内容"
+    },
+    {
+        "author_key" : "2",
+        "thread_key" : "500d0629448f04782b00000b",
+        "title" : "多说导出文件说明",
+        "url" : "http://duoshuo.com/02/",
+        "content" : "文章内容"
+    }],
+    "posts":
+    [{
+        "author_key" : "1",
+        "post_key" : "在原站点中的评论id",
+        "thread_key" : "500d0629448f04782b00000a",
+        "parent_key" : "2255",
+        "author_name" : "Perchouli",
+        "author_email" : "jp.chenyang@gmail.com",
+        "author_url" : "http://duoshuo.com",
+        "created_at" : "2012-07-23 14:13:55",
+        "agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2...",
+        "ip" : "127.0.0.1",
+        "likes" : "0",
+        "reports" : "0",
+        "message" : "评论测试",
+        "status":"approved"
+    },
+    {
+        "author_name" : "多说小武",
+        "created_at" : "2012-07-23 14:13:55",
+        "message" : "这是一条缺少必须的thread_key和post_key参数的评论，将无法正常导入"
+    },
+    {
+        "post_key" : "3",
+        "thread_key" : "201",
+        "author_name" : "多说小武",
+        "created_at" : "2012-07-23 14:13:55",
+        "message" : "这是一条缺少对应文章信息的评论，将无法正常导入"
+    }]
+}
