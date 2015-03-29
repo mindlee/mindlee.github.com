@@ -7,7 +7,7 @@ permalink: /2011/11/09/when-we-are-running/
 views:
   - 5432
 categories:
-  - 出去走走
+  - 闲心碎语
 tags:
   - 生活
   - 运动

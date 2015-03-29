@@ -8,7 +8,6 @@ views:
   - 7529
 categories:
   - 出去走走
-  - 闲心碎语
 tags:
   - 旅行
   - 生活
