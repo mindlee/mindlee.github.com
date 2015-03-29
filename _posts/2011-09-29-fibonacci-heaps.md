@@ -1011,6 +1011,49 @@ x是否已被marked……好像没有关系吧，不管 x 如何，CUT的时候�
 
 这个应该可以的，不过，如果这样操作，斐波那契堆就没有任何优势了。
 
+eagle说道：2012/06/01 16:32 
+{% highlight c %}
+static void FibNodeDestory(FibNode * x) {
+    FibNode * p = x, *q = NULL;
+    while (p != NULL) {
+        FibNodeDestory(p->child);
+        q = p;
+        if (p == x) {
+            p = NULL;
+        } else {
+            p = p->left;
+        }
+        free(q->right);
+    }
+}
+
+q = p;
+if (p == x) {
+{% endhighlight %}
+这应该有问题吧，第一步就相等了，双向链表就没法删除了。
+
+酷~行天下说道：2012/06/23 13:13  
+: 我看了下，这里确实有问题。
+应该改成这样：
+
+{% highlight c %}
+//被FibHeapDestory调用 
+static void FibNodeDestory(FibNode * x) { 
+    FibNode * p = x, *q = NULL;
+    while (p != NULL) { 
+        FibNodeDestory(p->child); 
+        q = p; 
+        if (p ->left == x) { //检测是否是独立叶子节点
+            p = NULL; 
+        } else { 
+            p = p->left; 
+        } 
+        free(q->right); 
+    } 
+} 
+{% endhighlight %}
+if语句用来判断是否是独立的叶子结点，如果是，p = NULL，递归这里结束，然后回溯到它的父结点；如果不是独立的叶子节点，则接着用函数处理它的左兄弟，自己销毁掉。
+
 [1]: /uploads/2011/09/FibHeapPic.jpg
 [2]: /uploads/2011/09/FibHeapInsertPic.jpg
 [3]: /uploads/2011/09/FibExtractPic1.jpg
