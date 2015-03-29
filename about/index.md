@@ -30,7 +30,7 @@ Find me on [Github][github] / [Zhihu][Zhihu] / [Douban][douban] / [Instagram][in
 
 <hr/>
 <!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="/about" data-title="About" data-url="/about"></div>
+<div class="ds-thread" data-thread-key="/about" data-title="About" data-url="mindlee.com/about"></div>
 
 [github]: https://github.com/welon
 [twitter]: https://twitter.com/chinawelon

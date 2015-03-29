@@ -354,6 +354,57 @@ int main() {
 }
 {% endhighlight %}
 
+<hr/>
+###一些评论
+
+kds说道：2012/09/08 16:36 
+: 酷行天下, 在第二部分，你改进后的代码，weight更新会出错的。更新之后，root的weight一定会大于等于实际weight。
+
+酷~行天下说道：2012/09/09 00:00 
+: weight ? 这个值的含义是根据需要自己定义的。
+
+{% highlight c %}
+void Union(int a, int b) {
+    if(village[a].weight == village[b].weight) {//树高一样
+        village[b].parent = a;
+        village[a].weight += 1;
+    } else if (village[a].weight > village[b].weight) {//矮树并入高树
+        village[b].parent = a;//并入a
+    } else {
+        village[a].parent = b;//并入b
+    }
+}
+{% endhighlight %}
+这里的weight代表树的高度
+
+{% highlight c %}
+//按秩合并
+void Union(int a, int b) {
+    a = Find(a);
+    b = Find(b);
+    if (a == b) {//如果是同一个集合就不用合并
+        return ;
+    }
+    //按秩合并
+    if (village[a].weight >= village[b].weight) {
+        village[b].parent = a;
+        village[a].weight += village[b].weight;
+    } else {
+        village[a].parent = b;
+        village[b].weight += village[a].weight;
+    }
+}//Union
+这里的weight是代表树中结点的个数。
+{% endhighlight %}
+
+你说的"root的weight一定会大于等于实际weight。" 那道题中，root的weight代表所有结点的个数，每个结点只加了一遍，怎么会大于实际weight呢？
+
+kds说道：2012/09/09 01:19 
+: 我看错了。晕。不好意思。。。
+
+酷~行天下说道：2012/09/09 07:23 
+: ^_^
+
  [1]: /uploads/2011/10/disjoint-sets_pic.png
  [2]: /uploads/2012/10/路径压缩.png
  [3]: /uploads/2011/10/LCA.png
