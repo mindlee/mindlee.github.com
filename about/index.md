@@ -20,14 +20,6 @@ Hangzhou Dianzi University
 Find me on [Github][github] / [Zhihu][Zhihu] / [Douban][douban] / [Instagram][instagram] or just say `Hello` at 
 [liwei.day(at)gmail.com](mailto:liwei.day@gmail.com).
 
-#### About blog
-
-2011年开始维护，2015年从 Wordpress 迁移到 Github Pages
-
-域名从 http://mindlee.net 更换为 http://mindlee.com
-
-以前的网名：酷~行天下
-
 <hr/>
 <!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key="/about" data-title="About" data-url="mindlee.com/about"></div>
