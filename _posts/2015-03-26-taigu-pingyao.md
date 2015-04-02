@@ -44,11 +44,7 @@ tags:
 
 ![平遥院子][pyyuanzi]
 
-几乎每家票号的地下都是巨大的金库。有些票号的金库可以算得上是地下宫殿了。
-
-![地下金库][jinku]
-
-平遥聚集的财富太多，所以诞生了中国最早的镖局。
+几乎每家票号的地下都是巨大的金库。因为聚集的财富太多，所以诞生了中国最早的镖局。
 
 ![镖局][biaoju]
 
@@ -69,7 +65,6 @@ tags:
 [piaohao2]: /uploads/2015/03/票号2.jpg
 [piaohao3]: /uploads/2015/03/票号3.jpg
 [pyyuanzi]:/uploads/2015/03/平遥院子.jpg
-[jinku]: /uploads/2015/03/地下金库.jpg
 [biaoju]: /uploads/2015/03/镖局.jpg
 [qianjinding]: /uploads/2015/03/千斤顶.jpg
 [meihuazhuang]: /uploads/2015/03/梅花桩.jpg
