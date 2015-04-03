@@ -4,9 +4,7 @@ title: About
 permalink: /about/
 ---
 
->永远不要认为我们可以逃避，我们的每一步都决定着最后的结局，我们的脚正在走向我们自己选定的终点。
-				
->—————————米兰•昆德拉
+>Don’t ask yourself what the world needs, ask yourself what makes you come alive. And then go and do that. Because what the world needs is people who have come alive.>———————Harold Whitman
 
 #### About me
 Wei Li
