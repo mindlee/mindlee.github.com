@@ -8,7 +8,7 @@ permalink: /about/
 >>———————Harold Whitman
 
 #### About me
-Wei Li
+李伟 / Denny Lee
 
 Working in Hangzhou
 
