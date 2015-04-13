@@ -11,7 +11,7 @@ url: http://mindlee.com
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Denny Lee
+  name: Terry Lee
   # Little description about your site
   description: 把生命浪费在美好的事物上
   # 'meta_description:' Write an awesome description for your new site here.
@@ -20,7 +20,7 @@ harmony:
   meta_description: 生命有如度过一重大海, 我们相遇在同一条窄船里. 死时,我们同登彼岸, 又向不同的世界各奔前程.
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Denny Lee
+    name: Terry Lee
     email: liwei.day@gmail.com
     url: http://mindlee.com
 
