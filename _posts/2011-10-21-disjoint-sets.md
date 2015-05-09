@@ -2,6 +2,7 @@
 title: 并查集(Disjoint Sets)
 author: Wei Li
 excerpt: 是在FIND-SET操作中，把查找路径上的每个结点都直接指向根结点。路径压缩并不改变结点的秩。关于路径压缩，看图理解，之间为FIND-SET操作前集合，之后为FIND-SET操作后集合。此时，查找路径上的每一个结点都直接指向根。
+meta_description: 是在FIND-SET操作中，把查找路径上的每个结点都直接指向根结点。路径压缩并不改变结点的秩。关于路径压缩，看图理解，之间为FIND-SET操作前集合，之后为FIND-SET操作后集合。此时，查找路径上的每一个结点都直接指向根。
 layout: post
 permalink: /2011/10/21/disjoint-sets/
 views:

@@ -2,6 +2,7 @@
 title: 计数排序和基数排序
 author: Wei Li
 excerpt: MSD：先按k0排序，得到四堆牌，每堆包含属于同一花色的所有纸牌然后分别对每一堆按照面值排序，然后四堆牌叠到一起就是最后结果。
+meta_description: MSD：先按k0排序，得到四堆牌，每堆包含属于同一花色的所有纸牌然后分别对每一堆按照面值排序，然后四堆牌叠到一起就是最后结果。
 layout: post
 permalink: /2011/07/30/count-sort-and-radix-sort/
 views:

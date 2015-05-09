@@ -2,6 +2,7 @@
 title: 红黑树(Red Black Tree)
 author: Wei Li
 excerpt: 红黑树的每个结点至少包含五个域：color，key，left，right 和 parent，如果某结点没有子结点或者父结点，则该结点相应的指针(p)域包含值NIL，我们将这些 NIL 当作叶子结点.(图a)。
+meta_description: 红黑树本质是二叉查找树的一种，它的性能高于普通的二叉查找树，即使是在最坏的情况下也能保证时间复杂度为O(lgn)。
 layout: post
 permalink: /2011/08/21/red-black-tree/
 views:

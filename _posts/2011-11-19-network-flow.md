@@ -2,6 +2,7 @@
 title: 网络流(Network Flow)
 author: Wei Li
 excerpt: 将每条有向边想象成传输物质的管道。每个管道都有一个固定的容量，可以看作是物质能流经该管道的最大速度（譬如可以想象为水流和河槽）。顶点是管道间的连接点，除了源点（S，Source）和汇点（T，Target）以外，物质只流经这些顶点。而不聚集在顶点中。
+meta_description: 将每条有向边想象成传输物质的管道。每个管道都有一个固定的容量，可以看作是物质能流经该管道的最大速度（譬如可以想象为水流和河槽）。顶点是管道间的连接点，除了源点（S，Source）和汇点（T，Target）以外，物质只流经这些顶点。而不聚集在顶点中。
 layout: post
 permalink: /2011/11/19/network-flow/
 views:

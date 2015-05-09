@@ -2,6 +2,7 @@
 title: Android Fragments基础
 author: Wei Li
 excerpt: 别看代码短，庙小妖风大，池浅王八多。不知道明察秋毫的你有没有注意，正宗的Activity 竟然没有用 setContentView() 设置根内容视图，这是要闹哪样，难道 setContentView() 被请去喝咖啡了？ 踏破铁鞋无觅处，那人却在灯火阑珊处……
+meta_description: 到 Android3.0+ 以后，Android新增了Fragments，在没有 Fragment 之前，一个屏幕只能放一个 Activity，Fragment 从功能上讲相当于一个子活动（Activity），它可以让多个活动放到同一个屏幕上，也就是对用户界面和功能的重用，因为对于大屏设备来说，纯粹的 Activity 有些力不从心。
 layout: post
 permalink: /2012/07/02/android-fragments-basic-knowledge/
 views:

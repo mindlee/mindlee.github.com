@@ -2,6 +2,7 @@
 title: 快速排序优化
 author: Wei Li
 excerpt: 由于N <= 20时，插入排序效率高于快速排序。于是就可以想到在快排到递归时：当n <= 20，采用插入排序；当n > 20时，采用快排，这种方法效率可以提高很多；可以看出第三种优化效果非常显著, 仅仅略逊于algorithm自带sort……
+meta_description: 上一篇《四种快速排序》罗列了常见的4中快排方法，但是，真正使用时，效率还可以提高。
 layout: post
 permalink: /2011/07/29/quick-sort-optimization/
 views:

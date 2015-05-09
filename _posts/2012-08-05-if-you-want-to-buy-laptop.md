@@ -2,6 +2,7 @@
 title: 如果你要买笔记本
 author: Wei Li
 excerpt: 笔记本也应该当做黑匣子，按照性能指标来分布价格。这样，人们就可以像买菜一样买笔记本了。
+meta_description: 笔记本也应该当做黑匣子，按照性能指标来分布价格。这样，人们就可以像买菜一样买笔记本了。
 layout: post
 permalink: /2012/08/05/if-you-want-to-buy-laptop/
 views:

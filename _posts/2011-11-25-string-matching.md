@@ -2,6 +2,7 @@
 title: 字符串匹配(String Matching)
 author: Wei Li
 excerpt: 相比较Rabin-Karp算法和KMP算法主要解决，少量长字符之间匹配问题。字典树主要用于解决大量短字符之间匹配问题。
+meta_description: 相比较Rabin-Karp算法和KMP算法主要解决，少量长字符之间匹配问题。字典树主要用于解决大量短字符之间匹配问题。
 layout: post
 permalink: /2011/11/25/string-matching/
 views:

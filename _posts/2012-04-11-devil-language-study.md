@@ -2,6 +2,7 @@
 title: 魔王语言小窥
 author: Wei Li
 excerpt: 魔王，就我所知，是世界上最苦逼的职业之一。魔王大都童年悲惨，魔王大都相貌奇葩，魔王大都自以为是，魔王大都死不悔改，魔王大都死于非命。
+meta_description: 魔王，就我所知，是世界上最苦逼的职业之一。魔王大都童年悲惨，魔王大都相貌奇葩，魔王大都自以为是，魔王大都死不悔改，魔王大都死于非命。
 layout: post
 permalink: /2012/04/11/devil-language-study/
 views:

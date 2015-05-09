@@ -2,6 +2,7 @@
 title: 《算法导论》笔记汇总
 author: Wei Li
 excerpt: 《算法导论》第二版，学习笔记汇总。
+meta_description: 《算法导论》第二版，学习笔记汇总。
 layout: post
 permalink: /2011/08/21/study-notes-directory/
 views:

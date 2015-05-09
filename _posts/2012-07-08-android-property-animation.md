@@ -2,6 +2,7 @@
 title: Android Property Animation
 author: Wei Li
 excerpt: Property Animation的本质是，使用TimeInterpolator和TypeEvaluator改变对象的属性，之后每一帧都调用getAnimatedValue()获取实时属性值，并生成每一帧的画面，连续显示构成动画。
+meta_description: roperty Animation的本质是，使用TimeInterpolator和TypeEvaluator改变对象的属性，之后每一帧都调用getAnimatedValue()获取实时属性值，并生成每一帧的画面，连续显示构成动画。
 layout: post
 permalink: /2012/07/08/android-property-animation/
 views:

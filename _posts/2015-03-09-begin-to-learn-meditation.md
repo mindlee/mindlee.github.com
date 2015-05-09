@@ -2,6 +2,7 @@
 title: 初学冥想
 author: Wei Li
 layout: post
+meta_description: 最近看《Happier》的时候，作者提到冥想的诸多好处。正好一直觉得需要一个能获得「灵魂片刻安宁」的途径，于是找来几本书看，我看的是《初学者的冥想书》，语言简练，浅显易懂。另外，《观呼吸》里详细描写了冥想可能遇到的诸多情况。
 categories:
   - 闲心碎语
 tags:

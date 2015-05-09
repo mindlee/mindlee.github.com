@@ -3,6 +3,7 @@ title: 直觉与模式
 author: Wei Li
 layout: post
 permalink: /2012/12/02/intuition-and-pattern/
+meta_description: 一个朋友最近看完了《乔布斯传》，跟我讲起他的感受。于是我又想起了乔布斯的印度精神之旅，想起了他对于直觉的看法。书中有他的一句原话“我开始意识到，基于直觉的理解和意识，比抽象思维和逻辑分析更为重要。”直觉当然不是与生俱来的，我感兴趣的是他的直觉从何而来，我怎样才能拥有相当的直觉？
 views:
   - 4407
 categories:

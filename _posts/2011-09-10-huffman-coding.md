@@ -2,6 +2,7 @@
 title: 哈夫曼编码(Huffman Coding)
 author: Wei Li
 excerpt: 动态编码是指：编码和解码使用相同的初始化哈夫曼树，每处理完一个字符，编码和解码使用相同的方法修改哈夫曼树，编码和解码一个字符所需的时间与该字符的编码长度成正比，所以动态哈夫曼编码可实时进行。明显的，动态编码更具优势，但是丫的应该会非常复杂。
+meta_description: 哈夫蛮编码是为了压缩数据，一般可压缩掉20%~90%，这里的数据通常是指字符串序列。
 layout: post
 permalink: /2011/09/10/huffman-coding/
 views:

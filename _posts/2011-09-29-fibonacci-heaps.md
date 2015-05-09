@@ -2,6 +2,7 @@
 title: 斐波那契堆(Fibonacci heaps)
 author: Wei Li
 excerpt: 对于斐波那契堆上的各种可合并操作，关键思想是尽可能久地将工作推后。例如，当向斐波那契堆中插入新结点或合并两个斐波那契堆时，并不去合并树，而是将这个工作留给EXTRACT-MIN操作。
+meta_description: 对于斐波那契堆上的各种可合并操作，关键思想是尽可能久地将工作推后。例如，当向斐波那契堆中插入新结点或合并两个斐波那契堆时，并不去合并树，而是将这个工作留给EXTRACT-MIN操作。
 layout: post
 permalink: /2011/09/29/fibonacci-heaps/
 views:

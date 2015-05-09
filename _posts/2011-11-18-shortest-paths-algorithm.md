@@ -2,6 +2,7 @@
 title: 最短路算法(Shortest Paths Algorithm)
 author: Wei Li
 excerpt: SPFA算法是西南交通大学段凡丁于1994年发表的。它是Bellman-Ford的队列优化，时效性相对好，时间复杂度O（kE），也是单源最短路算法，同时可以处理负权边。从名字即可看出，此算法速度非同一般。
+meta_description: SPFA算法是西南交通大学段凡丁于1994年发表的。它是Bellman-Ford的队列优化，时效性相对好，时间复杂度O（kE），也是单源最短路算法，同时可以处理负权边。从名字即可看出，此算法速度非同一般。
 layout: post
 permalink: /2011/11/18/shortest-paths-algorithm/
 views:

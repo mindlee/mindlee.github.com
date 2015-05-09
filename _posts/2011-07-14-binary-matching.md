@@ -2,6 +2,7 @@
 title: 二分匹配小结
 author: Wei Li
 excerpt: 匈牙利算法关键，是找增广路，每次找到增广路，匹配数+1（所谓的取反），直到找不到增广路，此时匹配最大。包含十几道二分题目的代码。
+meta_description: 匈牙利算法关键，是找增广路，每次找到增广路，匹配数+1（所谓的取反），直到找不到增广路，此时匹配最大。包含十几道二分题目的代码。
 layout: post
 permalink: /2011/07/14/binary-matching/
 views:

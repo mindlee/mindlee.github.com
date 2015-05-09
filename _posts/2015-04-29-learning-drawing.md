@@ -2,6 +2,7 @@
 title: 学画记
 author: Wei Li
 layout: post
+meta_description: 前段时间，朋友圈里有两个朋友晒画。我知道他们以前是没有基础的，但是看他们画的有模有样，好生羡慕，于是去问Hugo，推荐了一本书《三十天学会绘画》。
 categories:
   - 闲心碎语
 tags:

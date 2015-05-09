@@ -2,6 +2,7 @@
 title: 最小生成树(Minimum Spanning Trees)
 author: Wei Li
 excerpt: 假设要在 n 个城市之间建立通讯联络网，则连通 n 个城市只需要修建 n-1条线路，如何在最节省经费的前提下建立这个通讯网？答案就是：最小生成树。术语描述就是：在 e条带权的边中选取 n-1 条边（不构成回路），使“权值之和”为最小。
+meta_description: 假设要在 n 个城市之间建立通讯联络网，则连通 n 个城市只需要修建 n-1条线路，如何在最节省经费的前提下建立这个通讯网？答案就是：最小生成树。术语描述就是：在 e条带权的边中选取 n-1 条边（不构成回路），使“权值之和”为最小。
 layout: post
 permalink: /2011/11/16/minimum-spanning-trees/
 views:

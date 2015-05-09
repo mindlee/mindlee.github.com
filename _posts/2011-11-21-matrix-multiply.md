@@ -2,6 +2,7 @@
 title: 矩阵乘法(Matrix Multiply)
 author: Wei Li
 excerpt: 学过计算机图形学，会发现，不管是二维图形的平移，旋转，缩放，三维图形的取景变换，投影变换等都是通过矩阵乘法来实现。
+meta_description: 学过计算机图形学，会发现，不管是二维图形的平移，旋转，缩放，三维图形的取景变换，投影变换等都是通过矩阵乘法来实现。
 layout: post
 permalink: /2011/11/21/matrix-multiply/
 views:

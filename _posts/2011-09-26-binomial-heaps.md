@@ -1,7 +1,8 @@
 ---
 title: 二项堆(Binomial Heaps)
 author: Wei Li
-excerpt: 二项堆（Binomial Heap）是一种类似于二叉堆(Binary Heap)的堆结构。与二叉堆相比，其优势是可以快速合并两个堆，因此它属于可合并堆（Mergeable Heap）。后边要学的斐波那契堆也是可合并堆。一个二项堆由一组二项树所构成，这里的二项树(Binomial Trees)不同于二叉树(Binary Trees)。二叉树是“左孩子，右孩子”的表示方法，而二项树是“左孩子，右兄弟”的表示方法，在了解二项堆之前，需要先了解它的前验知识：二叉树，多叉树，二项树等数据结构，以及它们的不同。
+excerpt: 二项堆（Binomial Heap）是一种类似于二叉堆(Binary Heap)的堆结构。与二叉堆相比，其优势是可以快速合并两个堆，因此它属于可合并堆（Mergeable Heap）。
+meta_description: 二项堆（Binomial Heap）是一种类似于二叉堆(Binary Heap)的堆结构。与二叉堆相比，其优势是可以快速合并两个堆，因此它属于可合并堆（Mergeable Heap）。
 layout: post
 permalink: /2011/09/26/binomial-heaps/
 views:

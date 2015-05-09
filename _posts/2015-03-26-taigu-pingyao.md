@@ -2,6 +2,7 @@
 title: 太谷平遥
 author: Wei Li
 layout: post
+meta_description: 前几天去了趟太谷和平遥。几百年前，这两个小城和现在的香港上海相当，是清帝国的金融中心。但是盛衰兴替，变化无常，现在只是两个没落的小县城罢了。
 categories:
   - 出去走走
 tags:

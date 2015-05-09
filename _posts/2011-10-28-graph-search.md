@@ -2,6 +2,7 @@
 title: 图搜索算法(Graph Search Algorithm)
 author: Wei Li
 excerpt: 搜索一个图指是有序地沿着图的边访问所有顶点。搜索过程实际上是根据初始条件和扩展规则构造一棵解答树并寻找符合目标状态的节点的过程。
+meta_description: 搜索一个图指是有序地沿着图的边访问所有顶点。搜索过程实际上是根据初始条件和扩展规则构造一棵解答树并寻找符合目标状态的节点的过程。
 layout: post
 permalink: /2011/10/28/graph-search/
 views:

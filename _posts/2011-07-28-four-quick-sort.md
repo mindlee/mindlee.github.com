@@ -2,6 +2,7 @@
 title: 四种快速排序
 author: Wei Li
 excerpt: 这种快排的额外好处： kp[low], kp[center], kp[high]排好序后， kp[low], kp[high]本身就处在了分割阶段应该在的位置因此，可以将枢纽元放到kp[high - 1]并在分割阶段将 i和j初始化到low + 1, high - 1，可以减少一些操作。
+meta_description: 这种快排的额外好处： kp[low], kp[center], kp[high]排好序后， kp[low], kp[high]本身就处在了分割阶段应该在的位置因此，可以将枢纽元放到kp[high - 1]并在分割阶段将 i和j初始化到low + 1, high - 1，可以减少一些操作。
 layout: post
 permalink: /2011/07/28/four-quick-sort/
 views:

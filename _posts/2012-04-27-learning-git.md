@@ -2,6 +2,7 @@
 title: Git学习笔记
 author: Wei Li
 excerpt: 感叹我生不逢时，错过了版本控制的“史前黑暗”时代，刚刚接触版本控制，Linus就站在前边，笑嘻嘻的说：“版本控制？ 什么是版本控制 。。 ”。真希望Linus身退时，这样说过：“I'll be back.” ——施瓦辛格，《终结者》，1984。
+meta_description: 感叹我生不逢时，错过了版本控制的“史前黑暗”时代，刚刚接触版本控制，Linus就站在前边，笑嘻嘻的说：“版本控制？ 什么是版本控制 。。 ”。真希望Linus身退时，这样说过：“I'll be back.” ——施瓦辛格，《终结者》，1984。
 layout: post
 permalink: /2012/04/27/learning-git/
 views:

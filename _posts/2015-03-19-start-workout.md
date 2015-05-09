@@ -2,6 +2,7 @@
 title: 去健身吧
 author: Wei Li
 layout: post
+meta_description: 2月份去办了一张健身卡，还以为健身会很枯燥难熬，不想多巴胺和内啡肽分明让人心情愉悦、兴奋上瘾，而且血液加压流入肌肉的泵感也非常让人陶醉。
 categories:
   - 闲心碎语
 tags:

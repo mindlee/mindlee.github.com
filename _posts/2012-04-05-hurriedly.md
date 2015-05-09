@@ -2,6 +2,7 @@
 title: 匆匆
 author: Wei Li
 excerpt: 改卖冰激凌和三明治了，Wiki网络抗议坏法律了，Facebook要卖股票了，三星的屏幕可以折叠了，纳粹准备反攻地球了，玛雅人是对的，NASA是错的，地球的宇宙坐标肯定暴露了，黑暗森林的打击不远了
+meta_description: 改卖冰激凌和三明治了，Wiki网络抗议坏法律了，Facebook要卖股票了，三星的屏幕可以折叠了，纳粹准备反攻地球了，玛雅人是对的，NASA是错的，地球的宇宙坐标肯定暴露了，黑暗森林的打击不远了。
 layout: post
 permalink: /2012/04/05/hurriedly/
 views:

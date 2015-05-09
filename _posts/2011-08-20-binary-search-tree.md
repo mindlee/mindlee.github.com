@@ -1,7 +1,8 @@
 ---
 title: 二叉查找树
 author: Wei Li
-excerpt: 二叉查找树也是一种用于查找的数据结构，二叉查找树性质： 设x为二叉查找树中的一个结点。如果y是x的左子树中的一个结点，则key[y]<=key[x];如果y是x的右子树的一个结点，则key[y]>=key[x]。即结点的左孩子 < 结点 < 结点的右孩子
+excerpt: 二叉查找树也是一种用于查找的数据结构，二叉查找树性质： 设x为二叉查找树中的一个结点。如果y是x的左子树中的一个结点，则key[y]<=key[x];如果y是x的右子树的一个结点，则key[y]>=key[x]。即结点的左孩子 < 结点 < 结点的右孩子。
+meta_description: 二叉查找树也是一种用于查找的数据结构，二叉查找树性质。
 layout: post
 permalink: /2011/08/20/binary-search-tree/
 views:

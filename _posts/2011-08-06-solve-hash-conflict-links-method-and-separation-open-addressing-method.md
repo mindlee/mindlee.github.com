@@ -2,6 +2,7 @@
 title: 解决散列冲突之分离链接法和开放寻址法
 author: Wei Li
 excerpt: 散列表的缺点就是容易出现冲突（也叫碰撞），两个关键字可能映射到同一个槽中，然后就产生了冲突，解决冲突的方法有很多种，这里只讨论其中最简单的两种：分离链接法和开放寻址法。
+meta_description: 散列表的缺点就是容易出现冲突（也叫碰撞），两个关键字可能映射到同一个槽中，然后就产生了冲突，解决冲突的方法有很多种，这里只讨论其中最简单的两种：分离链接法和开放寻址法。
 layout: post
 permalink: /2011/08/06/solve-hash-conflict-links-method-and-separation-open-addressing-method/
 views:
