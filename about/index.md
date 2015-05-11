@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+meta_description: Terry Lee, Working in Hangzhou, Hangzhou Dianzi University
 permalink: /about/
 ---
 
