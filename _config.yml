@@ -11,16 +11,16 @@ url: http://mindlee.com
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Terry Lee
+  name: Terence Lee
   # Little description about your site
   description: 把生命浪费在美好的事物上
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
-  meta_description: 把生命浪费在美好的事物上，Terry Lee 的个人博客。
+  meta_description: 把生命浪费在美好的事物上，Terence Lee 的个人博客。
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Terry Lee
+    name: Terence Lee
     email: liwei.day@gmail.com
     url: http://mindlee.com
 

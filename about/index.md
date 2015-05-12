@@ -6,10 +6,11 @@ permalink: /about/
 ---
 
 >Don’t ask yourself what the world needs, ask yourself what makes you come alive. And then go and do that. Because what the world needs is people who have come alive.
->>———————Harold Whitman
+>
+>———————Harold Whitman
 
 #### About me
-Terry Lee
+Terence Lee
 
 Working in Hangzhou
 
