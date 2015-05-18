@@ -26,6 +26,8 @@ tags:
 
 我抽出时间跟着画了6次，时间大概10小时左右，虽然简陋，但是自己已经很开心了。有空时，我还会继续学，我会把学习的经过上传到这里 [学画记](http://www.douban.com/photos/album/156226133/)。
 
+另，还想学会彩绘。
+
 [dayone]: /uploads/2015/04/第一天.jpg
 [dayfour]: /uploads/2015/04/第四天.jpg
 [daysix]: /uploads/2015/04/第六天.jpg
