@@ -23,7 +23,7 @@ tags:
 
 《[自控力](http://book.douban.com/subject/10786473/)》一书里提到神经学家认为，人脑在接受锻炼方面和肌肉没什么区别，冥想可以让更多血液流进前额皮质，就像器械训练可以让更多血液流进肌肉一样，冥想也可以让大脑变得更加强壮、迅速、敏锐。
 
-《[The Power of Full Engagement](http://book.douban.com/subject/1884867/)》里作者说，自然本身的节奏就是在动与静之间规律脉动，比如四季更替、日出日落、潮起潮落。缓慢、规律的呼吸正是这样一种消耗后恢复的方式: The breath is a powerful tool for self-regulation, a means both to summon energy and to relax deeply. Deep, smooth and rhythmic breathing is simultaneously a source of energy, alertness and focus as well as of relaxation, stillness and quiet -- the ultimate healthy pulse.
+《[The Power of Full Engagement](http://book.douban.com/subject/1884867/)》里提到，自然本身的节奏就是在动与静之间规律脉动，比如四季更替、日出日落、潮起潮落。缓慢、规律的呼吸正是这样一种消耗后恢复的方式: The breath is a powerful tool for self-regulation, a means both to summon energy and to relax deeply. Deep, smooth and rhythmic breathing is simultaneously a source of energy, alertness and focus as well as of relaxation, stillness and quiet -- the ultimate healthy pulse.
 
 《[爱的艺术](http://book.douban.com/subject/3026879/)》里弗洛姆说，人们通常把一个坐在椅子上沉思默想、观察和体验自己以及自己同世界关系的人看作是「消极的」，因为他什么也不「干」。实际上这种精神高度集中的禅坐是最高的积极性，是灵魂的积极性。人在这种积极的情绪支配下，才是真正自由的，才是情绪的主人。
 
