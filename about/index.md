@@ -10,19 +10,21 @@ permalink: /about/
 >———————Harold Whitman
 
 #### About me
-Terence Lee
+Wei Li / Terence Lee
 
-Working in Hangzhou
+Undergraduate, Hangzhou Dianzi University
 
-Hangzhou Dianzi University
+Cofounder, Hangzhou Orange Info. Tec. Company
+
+Master, George Washington University
 
 #### Contact me
 
 Find me on [Github][github] / [Zhihu][Zhihu] / [Douban][douban] / [Instagram][instagram] or just say `Hello` at 
 [liwei.day(at)gmail.com](mailto:liwei.day@gmail.com).
 
-
 <br/>
+
 
 ***
 
