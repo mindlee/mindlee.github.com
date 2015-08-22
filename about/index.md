@@ -5,18 +5,12 @@ meta_description: Terry Lee, Working in Hangzhou, Hangzhou Dianzi University
 permalink: /about/
 ---
 
->Don’t ask yourself what the world needs, ask yourself what makes you come alive. And then go and do that. Because what the world needs is people who have come alive.
->
->———————Harold Whitman
-
 #### About me
 Wei Li / Terence Lee
 
 Undergraduate, Hangzhou Dianzi University
 
-Cofounder, Hangzhou Orange Info. Tec. Company
-
-Master, George Washington University
+Master, CS, George Washington University (in school)
 
 #### Contact me
 
