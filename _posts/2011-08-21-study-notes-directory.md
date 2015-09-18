@@ -19,7 +19,7 @@ tags:
 
 第六章：堆排序    《[堆排序](/2011/07/27/heap-sort-and-priority-queue/)》
 
-第七章：快速排序 《[四种快速排序](/2011/07/28/four-quick-sort/)》《[快速排序优化](/2011/07/29/quick-sort-optimization/)》
+第七章：快速排序 《[快速排序优化](/2011/07/29/quick-sort-optimization/)》
 
 第八章：线性时间排序     《[计数排序和基数排序](/2011/07/30/count-sort-and-radix-sort/)》
 
@@ -27,7 +27,7 @@ tags:
 
 第十一章：散列表     《[散列及散列函数](/2011/08/06/hash-and-hash-function/)》《[解决散列冲突之分离链接法和开放寻址法](/2011/08/06/solve-hash-conflict-links-method-and-separation-open-addressing-method/)》
 
-第十二章：二叉查找树 《[二叉查找树](/2011/08/20/binary-search-tree/)》
+第十二章：二叉查找树 《[二叉查找树（Binary Search Tree）](/2011/08/20/binary-search-tree/)》
 
 第十三章：红黑树  《[红黑树(Red Black Tree)](/2011/08/21/red-black-tree/)》
 
