@@ -10,7 +10,7 @@ permalink: /about/
 >    ————王小波
 
 #### About me
-Wei Li / Terence Lee
+Wei Li / Terence
 
 Undergraduate, Hangzhou Dianzi University
 
