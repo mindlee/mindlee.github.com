@@ -10,6 +10,11 @@ permalink: /about/
 
 >    ————王小波
 
+#### WeChat
+新开一个微信公众号，扫描可以关注。
+
+![wechat][wechat]
+
 #### About me
 Wei Li / Terence
 
@@ -21,6 +26,8 @@ Master, CS, George Washington University (in school)
 
 Find me on [Github][github] / [Zhihu][Zhihu] / [Douban][douban] / [Instagram][instagram] or just say `Hello` at 
 [liwei.day(at)gmail.com](mailto:liwei.day@gmail.com).
+
+
 
 <br/>
 
@@ -35,4 +42,5 @@ Find me on [Github][github] / [Zhihu][Zhihu] / [Douban][douban] / [Instagram][in
 [douban]: http://www.douban.com/people/mindlee/
 [zhihu]: http://www.zhihu.com/people/mindlee
 [instagram]: https://instagram.com/i.liwei/
+[wechat]: /uploads/2015/10/wechat.jpg
 
