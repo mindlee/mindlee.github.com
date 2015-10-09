@@ -51,7 +51,7 @@ Tamar Adler也是太爱厨房，她说白煮蛋要在水开之后关火，让鸡
 
 >We should also remember that going through difficult times augments our capacity for pleasure: it keeps us from taking pleasure for granted, reminds us to be grateful for all the large and small pleasures in our lives. Being grateful in this way can itself be a source of real meaning and pleasure.
 
-正是那些不可避免的，厌烦甚至痛苦的事情，磨练了人的心性，让人体悟生之绚烂。那么，大概，下一个菜更没美味吧。
+正是那些不可避免的，厌烦甚至痛苦的事情，磨练了人的心性，让人体悟生之绚烂。那么，大概，下一个菜更美味吧。
 
 ### 另
 >我听见回声，来自山谷和心间，以寂寞的镰刀收割空旷的灵魂，不断地重复决绝，又重复幸福，终有绿洲摇曳在沙漠。我相信自己，生来如同璀璨的夏日之花，不凋不败，妖冶如火，承受心跳的负荷和呼吸的累赘，乐此不疲。
