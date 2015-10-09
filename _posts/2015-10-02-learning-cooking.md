@@ -1,5 +1,5 @@
 ---
-title: 学厨记
+title: 学厨小记
 author: Wei Li
 layout: post
 meta_description: 我们不必像厨师那样采购或是像厨师那样下厨，只需要像正在学习烹饪的一般人就好，因为我们并不是厨师，我们只是肚子饿了的普通人而已。
