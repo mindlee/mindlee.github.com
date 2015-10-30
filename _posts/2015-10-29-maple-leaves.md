@@ -2,11 +2,11 @@
 title: 秋日枫叶
 author: Wei Li
 layout: post
-meta_description: 敖德萨f
+meta_description: 枫叶从从浅到深有很多种颜色，有的已赤红，有的金黄，有的刚刚从叶子边缘开始变黄。
 categories:
   - 美国生活
 tags:
-  - 厨艺
+  - 枫叶
 ---
 
 昨晚下了一场大雨，院子里的树叶几近打光。下午去学校时忘带电脑，心想，要不就趁着机会去看看枫叶吧。
@@ -29,7 +29,12 @@ tags:
 
 > 他举目四望，仿佛初次见到这个世界。这世界美丽而斑斓，奇特而神秘。瞧! 那儿是金黄，那儿是湛蓝，那儿又是碧绿。漫流的天空与河流，高耸的森林和山峦，一切都如此美好，如此神秘，如此诱人。
 
+回来路上，看到余晖中，河对岸的华盛顿纪念碑也变的和平时不同。
+
+![Monument][monument]
 
 [maple_leaves_0]: /uploads/2015/10/maple_leaf_0.jpg
 [maple_leaves_1]: /uploads/2015/10/maple_leaf_1.jpg
 [maple_leaves_2]: /uploads/2015/10/maple_leaf_2.jpg
+[monument]: /uploads/2015/10/monument.jpg
+
