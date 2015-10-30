@@ -4,7 +4,7 @@ author: Wei Li
 layout: post
 meta_description: 我们不必像厨师那样采购或是像厨师那样下厨，只需要像正在学习烹饪的一般人就好，因为我们并不是厨师，我们只是肚子饿了的普通人而已。
 categories:
-  - 闲心碎语
+  - 美国生活
 tags:
   - 厨艺
 ---
