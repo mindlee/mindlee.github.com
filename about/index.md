@@ -25,7 +25,7 @@ Master, CS, George Washington University (in school)
 
 #### Contact me
 
-Find me on [Github][github] / [Zhihu][Zhihu] / [Douban][douban] / [500px][500px] or just say `Hello` at 
+Find me on [LinkedIn][linkedin] / [Github][github] / [Zhihu][zhihu] / [Douban][douban] / [500px][500px] or just say `Hello` at 
 [liwei.day(at)gmail.com](mailto:liwei.day@gmail.com).
 
 
@@ -38,6 +38,7 @@ Find me on [Github][github] / [Zhihu][Zhihu] / [Douban][douban] / [500px][500px]
 <!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key="/about" data-title="About" data-url="mindlee.com/about"></div>
 
+[linkedin]: https://www.linkedin.com/in/wligwu
 [github]: https://github.com/welon
 [twitter]: https://twitter.com/chinawelon
 [douban]: http://www.douban.com/people/mindlee/
