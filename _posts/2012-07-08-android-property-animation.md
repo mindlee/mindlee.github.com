@@ -464,7 +464,7 @@ public void testKeyFrames(View v) {
 }
 {% endhighlight %}
 
-完整代码@GihHub：可以 [Fork](https://github.com/welon/PropertyAnimation) 或者 [打包下载](https://github.com/welon/PropertyAnimation/downloads)。
+完整代码@GihHub：可以 [Fork](https://github.com/wliday/PropertyAnimation) 或者 [打包下载](https://github.com/wliday/PropertyAnimation/downloads)。
 
 参考资料：
 

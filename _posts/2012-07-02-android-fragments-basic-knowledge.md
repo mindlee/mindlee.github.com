@@ -94,7 +94,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
 
 ###3）Fragments实例
 
-一个完整例子，如果你看过官方文档，一定不陌生，完整源文件[GitHub](https://github.com/welon/FragmentBasics)了，主要的几个文件如下：Java文件，MainActivity.java，TitlesFragment.java，DeailsFragment.java，DetailsActivity.java；布局文件：main.xml，details.xml，上图：
+一个完整例子，如果你看过官方文档，一定不陌生，完整源文件[GitHub](https://github.com/wliday/FragmentBasics)了，主要的几个文件如下：Java文件，MainActivity.java，TitlesFragment.java，DeailsFragment.java，DetailsActivity.java；布局文件：main.xml，details.xml，上图：
 
 它的横向模式的 Activity 布局：layout-land/main.xml：
 
@@ -382,7 +382,7 @@ DetailsFragment details = (DetailsFragment) getFragmentManager()
 
 此工程中的其他文件没特殊之处，比如AndroidManifext.xml文件。
 
-完整工程@Github，代码打包：《[FragmentBasics](https://github.com/welon/FragmentBasics/downloads)》
+完整工程@Github，代码打包：《[FragmentBasics](https://github.com/wliday/FragmentBasics/downloads)》
 
 参考资料：
 

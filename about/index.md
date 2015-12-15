@@ -38,11 +38,11 @@ Find me on [LinkedIn][linkedin] / [Github][github] / [Zhihu][zhihu] / [Douban][d
 <!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key="/about" data-title="About" data-url="mindlee.com/about"></div>
 
-[linkedin]: https://www.linkedin.com/in/wligwu
-[github]: https://github.com/welon
-[twitter]: https://twitter.com/chinawelon
+[linkedin]: https://www.linkedin.com/in/wliday
+[github]: https://github.com/wliday
+[twitter]: https://twitter.com/wliday
 [douban]: http://www.douban.com/people/mindlee/
-[zhihu]: http://www.zhihu.com/people/mindlee
-[500px]: https://500px.com/terence_photography
+[zhihu]: http://www.zhihu.com/people/wliday
+[500px]: https://500px.com/wliday
 [wechat]: /uploads/2015/10/wechat.jpg
 
