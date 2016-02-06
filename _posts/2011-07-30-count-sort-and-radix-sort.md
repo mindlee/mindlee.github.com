@@ -28,7 +28,7 @@ tags:
 
 一个各种排序算法演示网站:http://www.sorting-algorithms.com/ (看网址就知道)
 
-###计数排序
+### 计数排序
 
 元素必须是大于等于0，同时不能太大，否则数组res会暴栈
 
@@ -127,7 +127,7 @@ int main() {
  
 */
 {% endhighlight %}
-###基数排序
+### 基数排序
 
 首先要搞懂MSD(Most significant digital， 最高位优先级)和LSD(Least significant digital， 最低位优先级)。 例如: 纸牌排序问题，要求结果符合面值，花色从小到大排序
 

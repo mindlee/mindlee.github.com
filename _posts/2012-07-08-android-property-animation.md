@@ -14,12 +14,12 @@ tags:
   - Animation
   - JAVA
 ---
-###1）Android中的动画系统  
+### 1）Android中的动画系统  
 Android 3.0之前，支持三种动画，逐帧动画（Frame-by-Frame Animation，aka，Drawable Animation），布局动画（Layout Animation），视图动画（View Animation），后两种又合称为补间动画（Tween Animation），Android3.0引入了一种新的动画系统：属性动画（Property Animation）。最新的sdk-docs中介绍动画时，介绍了[三种](http://developer.android.com/guide/topics/graphics/overview.html)：Property Animation，View Animation， Drawable Animation。
 
 Drawable Animation的作用是连续展示一帧一帧的图片资源（存放在res/drawable），能设置的几乎只有间隔时间；View Animation的作用是改变整个View（必须是View）的绘制效果，比如缩放，旋转，平移，alpha透明度等等，但是它的实际属性值没有改变，比如你缩小了 Button 的大小，它的有效点击区域却不变，因为它的位置和大小属性没变动。
 
-###2）Property Animation原理
+### 2）Property Animation原理
 
 到 Protery Animation，它还可以对 non-View 对象生成动画，改变的是对象的实际属性，比如 Button 缩放，它的位置和大小属性值随之更改，不仅功能比前两种强大，生成动画也更加稳定。因此，官方文档推荐使用 Property Animation。Property中可以更改的属性值有：（文档有详细介绍）
 
@@ -38,7 +38,7 @@ Protery Animation的工作流程如图：
 
 另外，也可以继承[AnimatorListenerAdapter](http://developer.android.com/reference/android/animation/AnimatorListenerAdapter.html)类，而不是实现[Animator.AnimatorListener](http://developer.android.com/reference/android/animation/Animator.AnimatorListener.html)接口，用来简化工作，因为接口需要实现里边包含的所有方法（包含onAnimationStart()，onAnimationEnd()，onAnimationRepeat()，onAnimationCancel()四个方法），而[AnimatorListenerAdapter](http://developer.android.com/reference/android/animation/AnimatorListenerAdapter.html)可以选择性的重写需要的方法，相关详细内容可以看[官方文档](http://developer.android.com/guide/topics/graphics/prop-animation.html#listeners)。
 
-###3）TimeInterpolator
+### 3）TimeInterpolator
 
 需要先介绍一下插值器，插值器告诉动画某个属性如何随时间变化，它以线性方式变化，还是以指数方式变化，还是先快后慢等等。支持的插值器包括：
 
@@ -203,7 +203,7 @@ public void testObjectAnimator(View btnView) {
 
 >alpha: Represents the alpha transparency on the View. This value is 1 (opaque) by default, with a value of 0 representing full transparency (not visible).（透明度，1代表完全可见，0代表不可见）
 
-###5）Animation Set
+### 5）Animation Set
 
 利用 Animation Set，可以播放多个动画，并且可以控制它们的时序关系，比如同时播放，顺序播放等。设置顺序有两种方法：
 
@@ -296,7 +296,7 @@ public void testAnimationXML(View bView) {
 }
 {% endhighlight %}
 
-###7）PropertyValuesHolder
+### 7）PropertyValuesHolder
 
 前边提到的都是，如何给一个动画设置一个属性值，PropertyValuesHolder 类可以给一个动画设置多个属性值。上边第四个按钮的功能是从右下角移动到左上角，弹跳效果是由弹性插值器（Bounce Interpolator()）实现的，前边已经提到过。代码如下：
 
@@ -325,7 +325,7 @@ public void testPropertyValuesHolder(View v) {
 }
 {% endhighlight %}
 
-###8）ViewPropertyAnimator
+### 8）ViewPropertyAnimator
 
 ViewPropertyAnimator是在Android3.1中新增加的动画，这个类对多属性动画进行了优化，会合并一些 invalidate() 来减少刷新视图。上边第五个按钮，代码：
 
@@ -357,7 +357,7 @@ public void testViewPropertyAnimator(View v) {
 
 关于ViewPropertyAnimator，Chet Haase （Google 图形动画工程师，这个类估计是他写的吧）的这篇《[Introducing ViewPropertyAnimator](http://android-developers.blogspot.com/2011/05/introducing-viewpropertyanimator.html)》估计是最详细的。
 
-###9）TypeEvaluator
+### 9）TypeEvaluator
 
 Android 支持4种求值器（Evaluator），需要注意的是，它支持Android的所有动画系统，不仅Propery Animation。它提供了以下几种Evalutor：
 
@@ -433,7 +433,7 @@ public void testTypeEvaluator(View v) {
  
 }
 {% endhighlight %}
-###10）KeyFrames
+### 10）KeyFrames
 
 一个关键帧包含一个【时间/值】对，通过它可以定义一个在特定时间的特定状态，而且每个KeyFrame可以设置不同的Interpolator，作用范围是它的前一个keyFrame和它本身之间。可以通过ofInt()，ofFloat()，ofObject() 获得适当的KeyFrame，然后通过 PropertyValuesHolder.ofKeyframe 获得PropertyValuesHolder对象，比如第七个按钮中的旋转效果，代码：
 

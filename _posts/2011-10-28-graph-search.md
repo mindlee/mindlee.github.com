@@ -29,7 +29,7 @@ tags:
 <embed src="http://player.youku.com/player.php/sid/XMjQzMTYzNjg4/v.swf" allowFullScreen="true" quality="high" width="600" height="500" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
 </div>
 
-###一、广度优先搜索（BFS）
+### 一、广度优先搜索（BFS）
 
 广度优先搜索是很多重要的图算法的原型。在Prim最小生成树和Dijkstra单源最短路径算法中，都采用了与广度优先搜索类似的思想。
 
@@ -1141,7 +1141,7 @@ int main() {
 }
 {% endhighlight %}
 
-###二、深度优先搜索（DFS）
+### 二、深度优先搜索（DFS）
 
 深度优先搜索所遵循的搜索策略是尽可能“深”地搜索一个图，对于新发现的顶点，如果它还有以此为起点而未探测到的边，就沿此边继续探测下去。当顶点v的所有边都已被探寻过后，搜索将回溯到发现顶点v有起始点的那些边。这一过程一直进行到已发现从源顶点可达的所有顶点时为止。如果还存在未被发现的顶点，则选择其中一个作为源顶点，并重复以上过程。整个过程反复进行，知道所有的顶点都被已发现为止。
 
@@ -1865,7 +1865,7 @@ int main() {
 }
 {% endhighlight %}
 
-###三、BFS判断二分图
+### 三、BFS判断二分图
 
 判断二分图，使用的是黑白染色法，这个在之前《[二分匹配小结](/2011/07/14/binary-matching/)》里运用过，这里单独拿出来。黑白染色法简单的说就是在BFS的过程中给每个点染色，当发现相邻两个点颜色相同时，这个图就不是二分图，如果BFS结束，仍未跳出，则是二分图。
 

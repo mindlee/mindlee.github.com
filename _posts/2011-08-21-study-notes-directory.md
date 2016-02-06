@@ -60,14 +60,14 @@ tags:
 第三十三章：计算几何学   《[计算几何学(Computational Geometry)](/2011/11/27/computational-geometry/)》
 
 
-###推荐几本其他算法教材：
+### 推荐几本其他算法教材：
 
 《[数据结构与算法分析](http://book.douban.com/subject/1139426/)》：C语言实现很赞，作者有时候会说，别人的效率没我这个高。
 
 《[算法](http://book.douban.com/subject/10432347/)》: 普林斯顿的教材，东东说用此教材的学生非常幸福，12年10月出中文版了。
 
 
-###其他朋友的CLRS笔记：
+### 其他朋友的CLRS笔记：
 Tanky Woo：[《算法导论》学习总结—【目录】](http://www.wutianqi.com/?p=2403)
 
 Adoo:[《算法导论》笔记汇总](http://www.roading.org/algorithm/introductiontoalgorithm/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA%E7%B4%A2%E5%BC%95%E8%A1%A8.html)

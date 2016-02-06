@@ -744,7 +744,7 @@ int main(void) {
    return 0;
 }
 {% endhighlight %}
-###二、Strassen算法
+### 二、Strassen算法
 
 Strassen算法核心思想是分治，是一种递归算法，运行时间为$O（n^{lg7}） = O（n^{2.81}）$，当 n 很大时，优化很明显，在普通的矩阵乘法中，C = A * B，按照：
 

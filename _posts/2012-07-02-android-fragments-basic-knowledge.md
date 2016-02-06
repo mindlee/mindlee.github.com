@@ -14,7 +14,7 @@ tags:
   - Fragment
   - JAVA
 ---
-###1）Fragments基础   
+### 1）Fragments基础   
 
 到 Android3.0+ 以后，Android新增了[Fragments](http://developer.android.com/guide/components/fragments.html)，在没有 Fragment 之前，一个屏幕只能放一个 Activity，Fragment 从功能上讲相当于一个子活动（Activity），它可以让多个活动放到同一个屏幕上，也就是对用户界面和功能的重用，因为对于大屏设备来说，纯粹的 Activity 有些力不从心，比如下边这张截图：
 ![Image][1]
@@ -27,14 +27,14 @@ Fragment 像是一个子活动，但是 Fragment 不是 Activity 的扩展，因
 
 一个Activity可以运行多个 Fragment，Fragment 切换时，由 FragmentTransaction 执行，切换时，上一个 Fragment 可以保存在后退栈中（Back Stack），这里的后退栈由 FragmentManager 来管理，注意 Fragment 和 Activity 的后退栈是有区别的：Activity 的后退栈由系统管理，而 Fragment 的后退栈由所在的Activity 管理。
 
-###2）Fragments活动周期
+### 2）Fragments活动周期
 
 实现 Fragment，应该先了解一下它的[活动周期](http://developer.android.com/reference/android/app/Fragment.html#Lifecycle)，如图：
 ![Image][3]
 
 所以创建一个 Fragment 的顺序是：
 
-####1）用静态方法实例化一个 Fragment：
+#### 1）用静态方法实例化一个 Fragment：
 
 （①调用构造函数；②传入 Bundle）
 
@@ -48,7 +48,7 @@ public static DetailsFragment newInstance(int index) {
 }
 {% endhighlight %}
 
-####2）然后按照需求实现上图中的12个回调函数:
+#### 2）然后按照需求实现上图中的12个回调函数:
 	1. onAttach(Activity) called once the fragment is associated with its activity.
 
 	2. onCreate(Bundle) called to do initial creation of the fragment.
@@ -92,7 +92,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
 
 3）[onActivityCreated(Bundle)](http://developer.android.com/reference/android/app/Fragment.html#onActivityCreated(android.os.Bundle))，告诉 Fragment，Activity 的视图层级结构已经准备好，还可以实例化 Fragment 的视图层次，这里是用户看到界面之前，可以对界面最后调整的地方。（It can be used to do final initialization once these pieces are in place, such as retrieving views or restoring state）。
 
-###3）Fragments实例
+### 3）Fragments实例
 
 一个完整例子，如果你看过官方文档，一定不陌生，完整源文件[GitHub](https://github.com/wliday/FragmentBasics)了，主要的几个文件如下：Java文件，MainActivity.java，TitlesFragment.java，DeailsFragment.java，DetailsActivity.java；布局文件：main.xml，details.xml，上图：
 

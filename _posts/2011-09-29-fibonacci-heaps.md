@@ -23,7 +23,7 @@ tags:
 对于斐波那契堆上的各种可合并操作，关键思想是尽可能久地**将工作推后**。例如，当向斐波那契堆中插入新结点或合并两个斐波那契堆时，并不去合并树，而是将这个工作留给EXTRACT-MIN操作。
 ![Image][1]
 
-###一、每个结点x的域：
+### 一、每个结点x的域：
 
 1. 父节点p[x]
 2. 指向任一子女的指针child[x]——结点x的子女被链接成一个环形双链表，称为x的子女表
@@ -31,7 +31,7 @@ tags:
 4. 右兄弟right[x]——当left[x] = right[x] = x时，说明x是独子。
 5. 子女的个数degree[x]
 6. 布尔值域mark[x]——标记是否失去了一个孩子
-####结点ADT:
+#### 结点ADT:
 
 {% highlight c %}
 //斐波那契结点ADT
@@ -46,10 +46,10 @@ struct FibonacciHeapNode {
 };
 typedef FibonacciHeapNode FibNode;
 {% endhighlight %}
-###二、堆结构ADT：
+### 二、堆结构ADT：
 对于一个给定的斐波那契堆H，可以通过指向包含最小关键字的树根的指针min[H]来访问，这个结点被称为斐波那契堆中的最小结点。如果一个斐波那契堆H是空的，则min[H] = NIL. 在一个斐波那契堆中，所有树的根都通过left和right指针链接成一个环形的双链表，称为堆的根表。于是，指针min[H]就指向根表中具有最小关键字的结点。
 
-####堆结构ADT：
+#### 堆结构ADT：
 {% highlight c %}
 //斐波那契堆ADT
 struct FibonacciHeap {
@@ -61,7 +61,7 @@ struct FibonacciHeap {
  
 typedef FibonacciHeap FibHeap;
 {% endhighlight %}
-###三、创建一个新的斐波那契堆
+### 三、创建一个新的斐波那契堆
 
 创建一个空的斐波那契堆，过程MAKE-FIB-HEAP 分配并返回一个斐波那契堆对象H；
 
@@ -91,7 +91,7 @@ FibNode * FibHeapNodeMake() {
     return x;
 }
 {% endhighlight %}
-###四、插入一个结点
+### 四、插入一个结点
 
 简单说就是生成一个结点x，对结点的各域初始化，赋值，然后构造自身的环形双向链表后，将x加入H的根表中。 也就是说，结点x 成为一棵单结点的最小堆有序树，同时就是斐波那契堆中一棵无序二项树。                伪代码：
 {% highlight c %}
@@ -141,7 +141,7 @@ static void FibHeapInsertKey(FibHeap * heap, int key) {
     FibHeapInsert(heap, x);
 }
 {% endhighlight %}
-###五、合并两个斐波那契堆
+### 五、合并两个斐波那契堆
 
 不同于二项堆，这个操作在斐波那契堆里非常简单。仅仅简单地将H1和H2的两根表并置，然后确定一个新的最小结点。
 
@@ -157,7 +157,7 @@ FIB-HEAP-UNION(H1, H2)
 7  free the objects H1 and H2
 8  return H
 {% endhighlight %}
-###六、抽取最小结点
+### 六、抽取最小结点
 
 前边说过，对根表中的树合并是推后到EXTRACT-MIN中的，所以抽取最小这个操作比较麻烦。该过程还用到一个辅助过程CONSOLIDATE。
 
@@ -334,7 +334,7 @@ static FibNode *FibHeapMinRemove(FibHeap * heap) {
 }
 {% endhighlight %}
 
-###七、减小一个关键字
+### 七、减小一个关键字
 
 减小关键字操作最大的难点是，如果减小后的结点破坏了最小堆的性质，如何维护斐波那契堆的性质。这里用到一个操作：级联剪枝（Cascading Cut）。减小关键字的代码流程基本就是：如果减小后的结点破坏了最小堆性质，则把它切下来(cut)，即从所在双向链表中删除，并将其插入到由最小树根节点形成的双向链表中，然后再从parent[x]到所在树根节点递归执行级联剪枝。
 
@@ -437,7 +437,7 @@ void renewDegree(FibNode * parent, int degree) {
 }
 {% endhighlight %}
 
-###八、删除一个结点
+### 八、删除一个结点
 
 伪代码：
 {% highlight c %}

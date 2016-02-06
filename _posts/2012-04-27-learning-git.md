@@ -45,7 +45,7 @@ git reset –hard HEAD@{1}               //取消恢复，又删了
 后边提到的，工作区是指（working directory），暂存区是指（staging area，index 在这里），版本库是指（git directory，respository,  HEAD在这里），三者的关系如下图。标签是指（tag，也有书里译为“里程碑”）
 ![Image][2]
 
-###Git基础配置：
+### Git基础配置：
 
 配置名字和邮箱：
 
@@ -78,9 +78,9 @@ GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/
 
 	git config –global –list
 
-###查看信息相关：
+### 查看信息相关：
 
-####git log：
+#### git log：
 
 	git log –pretty=oneline                (可以显示完整哈希码)
 	git log –-oneline                      (显示哈希吗前7位，上边的简化版)
@@ -97,7 +97,7 @@ GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/
 	
 	git log –oneline –graph -3
 
-####git status -s
+#### git status -s
 
 	示例运行结果： MM hello.txt （第一个 M 绿色，第二个 M 红色）
 
@@ -105,7 +105,7 @@ GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/
 
 第二列字母M，工作区文件与暂存区文件差异
  
-####git reflog
+#### git reflog
 	git reflog -5
 	查看最近五次的操作记录，默认是HEAD
 
@@ -113,7 +113,7 @@ GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/
 	查看master最近五次的操作记录
  
 
-####其他查看指令：
+#### 其他查看指令：
 	ls                                     查看本地文件
 	cat hello.txt                          查看文件内容
 	git ls-files                           查看暂存区文件
@@ -122,7 +122,7 @@ GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/
 	gitk –all                              图形界面查看提交(图形化界面)
 	du -sh .git                            查看版版本库的大小
 
-###添加和删除：
+### 添加和删除：
 
 	git add -u     
 	u → update, 以暂存区中有的文件为准, 更新暂存区文件; 如果是工作区新建的文件,则此文件不能添加到暂存区(already tracked files in the index rather than the working tree)
@@ -137,9 +137,9 @@ GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/
 	git rm hello.txt                       从暂存区删除
 	git rm –cached <file>                  同上
 
-###反悔了：（悔棋，穿越）
+### 反悔了：（悔棋，穿越）
 
-####git reset
+#### git reset
 	
 	git reset HEAD — <paths>               
 	用版本库中文件替换掉暂存区中文件夹;
@@ -196,7 +196,7 @@ git reset –mixed \<commit\> 改变版本库和暂存区，不改变工作区;
 	git reset HEAD filename                
 	同上
  
-####git checkout
+#### git checkout
 git checkout <file> 用暂存区文件替换工作区文件，但并不是git add 的反向操作，因为如果新建一个文件，git add 到暂存区，利用这条命令是无法将将此文件移出暂存区的，试试下面的代码：
 
 	echo "first line" > abc.txt
@@ -224,7 +224,7 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 	git revert HEAD
 	反转上一条提交，但是会有两条记录，上一条记录 + 新的revert记录
 
-###改变历史：
+### 改变历史：
 
 	git cherry-pick master^
 	从众多的提交中挑选出一个提交应用到当前的工作分支中
@@ -243,9 +243,9 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 	git rebase -i C
 	交互式变基，手动编辑，可以试试，最方便 + 最强大的方法，不过要谨慎）
  
-###标签：（里程碑）
+### 标签：（里程碑）
 
-####git tag
+#### git tag
 
 	git tag mytag                          创建轻量级标签
 	git tag -m "First annoated tag." mytag2创建带说明的标签。
@@ -254,16 +254,16 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 	git push origin:mytag2                 删除远程版本库标签mytag2
  
 
-###比较差异：
+### 比较差异：
 
-####git diff
+#### git diff
 
 	git diff                               比较, 暂存区 Vs. 工作区;
 	git diff HEAD                          比较, 版本库 Vs. 工作区;
 	git diff –cached                       比较, 版本库 Vs. 暂存区;
 
 
-###忽略文件：
+### 忽略文件：
 
 	cat > .gitignore << EOF
 	> *.o
@@ -274,7 +274,7 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 	git add -f hello.h                     强制添加已忽略文件
  
 
-###其他一些指令：
+### 其他一些指令：
 
 	git clean –nd                          看看那些文件和目录会被删除
 	git clean –fd                          清除工作区中未加入版本库的文件&目录
