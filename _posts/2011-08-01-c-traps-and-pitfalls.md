@@ -45,7 +45,7 @@ else {
 }
 {% endhighlight %}
 
-###P39
+### P39
 假定要把两个字符串s和t连接成单个字符串r，这时可以借助库函数strcpy和 strcat实现
 于是：
 {% highlight c %}

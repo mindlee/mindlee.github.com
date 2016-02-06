@@ -153,7 +153,7 @@ Protery Animation的工作流程如图：
  
 </LinearLayout>
 {% endhighlight %}
-###4）Objet Animator
+### 4）Objet Animator
 
 ObjectAnimator 是 ValueAnimator的一个子类，一般使用较多的是 ObjectAnimator，因为它不必实现ValueAnimator.AnimatorUpdateListener，它的属性值可以自动更新。使用时，指定一个对象及该对象的属性值，当属性值计算完成时，会自动设置为该对象的相应属性。使用ObjectAnimator要满足的条件如下：
 
