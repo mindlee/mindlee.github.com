@@ -54,7 +54,7 @@ tags:
 
 在 IKEA 门口等 Bus 十几分钟都没来，估计看不下去了，上来一个西装革领的帅哥：If you go to bus station, I can give you a ride. Don't worry, no money. 到车站以后，感动的泪都快出来了。
 
-在路上走，迎面而来的大妈突然朝我笑，我以为怎么了，结果她手指向我, 边笑边说：I like that T-Shirt. 我不知道我T恤哪好了，但还是挺开心。
+在路上走，迎面而来的大妈突然朝我笑，我以为怎么了，结果她手指向我, 边笑边说：I like your T-shirt. 我不知道我T恤哪好了，但还是挺开心。
 
 Arlington 地下通道四通八达，甚至可以直接从公寓G1层走到地铁站。走不认识路了，我正盯着墙上地图看，旁边经过的大叔就靠上来了：Do you need help? 我想以后地图都不能安心看了。
 
