@@ -2237,7 +2237,7 @@ int main() {
 }
 {% endhighlight %}
 
-###四、拓扑排序（Topological Sort）
+### 四、拓扑排序（Topological Sort）
 
 一个图的拓扑排序可以看成是图中所有顶点沿水平线排列而成的一个序列，使得所有的有向边均从左指向右。拓扑排序的作用是：有向无环图用于说明事件的发生的先后次序。
 
@@ -2574,7 +2574,7 @@ int main() {
 }
 {% endhighlight %}
 
-###五、强连通分支（Strongly connected components）
+### 五、强连通分支（Strongly connected components）
 
 深度优先搜索的经典应用：把一个有向图分解为各强连通分支。有向图G = （V, E）的一个强连通分支就是一个最大顶点集合C ∈V，对于C中的每一对顶点u和v，有u->v和v->u；亦即，顶点u和v是互相可达的。
 ![Image][5]

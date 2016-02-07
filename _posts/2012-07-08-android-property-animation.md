@@ -240,7 +240,7 @@ public void testAnimationSet(View v) {
     as.start();
 }
 {% endhighlight %}
-###6）使用XML加载动画
+### 6）使用XML加载动画
 
 Property Animation可以使用XML声明动画，这样做的好处是动画代码的重用，符合 DRY 原则（Don’t Repeat Yourself），将定义好的动画文件放到/res/animator/目录下，注意不是/res/anim/目录，/res/anim/是non-Property Animation的动画目录，新增加的/res/animator/专为Property Animation预留。引用方式为：
 

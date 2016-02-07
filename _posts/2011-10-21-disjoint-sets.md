@@ -356,7 +356,7 @@ int main() {
 {% endhighlight %}
 
 <hr/>
-###一些评论
+### 一些评论
 
 kds说道：2012/09/08 16:36 
 : 酷行天下, 在第二部分，你改进后的代码，weight更新会出错的。更新之后，root的weight一定会大于等于实际weight。

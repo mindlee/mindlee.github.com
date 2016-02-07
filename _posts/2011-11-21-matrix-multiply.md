@@ -64,7 +64,7 @@ $$
 
 矩阵相乘有两种方法，普通的矩阵乘法（Matrix Multiply）和Strassen算法。
 
-###一、矩阵乘法（Matrix Multiply）
+### 一、矩阵乘法（Matrix Multiply）
 
 一个矩阵在计算机里就是一个二维数组，所以矩阵ADT：
 
@@ -368,7 +368,7 @@ int main() {
 {% endhighlight %}
 ACM中的纯矩阵乘法题目，大致有两类，当然这只是基础的两种类型，去看看HDU 2243，会发现需要用矩阵乘法 + AC自动机两种算法组合求解，这里只探讨最基本的两种：
 
-####1）根据递归式构造矩阵
+#### 1）根据递归式构造矩阵
 
 根据推导出的递推式来构造矩阵，然后利用上边的模板直接计算，这个例子太多，譬如HDOJ的[1757 A Simple Math Problem](http://acm.hdu.edu.cn/showproblem.php?pid=1757)，题目意思很简单，给出俩公式，求f (k) % m，可以很快的得出构造矩阵为：
 
@@ -546,7 +546,7 @@ int main() {
     return 0;
 }
 {% endhighlight %}
-####2）有向图中的应用
+#### 2）有向图中的应用
 
 在有向图中的应用，典型的题目有[HDOJ 2254](http://acm.hdu.edu.cn/showproblem.php?pid=2254) 奥运，它的问法是：在 t1 到 t2 天（包括 t1, t2）内从 v1 到 v2 共有多少种走法？
 
