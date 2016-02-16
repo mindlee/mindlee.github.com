@@ -21,15 +21,15 @@ Git这个词本身很喜感，学Git更欢乐，因为书里没啥难懂的知�
 刚开始用时，遇到过些小麻烦，比如，commit内容写错了，merge到了错误的分支，最关键的是，不知道怎么用Git画出优雅的下水道等等。。。后来慢慢知道怎么解决了，于是，留点笔记吧，既是给自己看的，也是给别人参考的。。
 
 如果你能看懂下边这堆命令（纯属瞎折腾），赶紧关掉这个页面，遛马去吧。。
-{% highlight c %}
+{% highlight git %}
 touch hello.txt
 echo "first line in hello.txt" >> hello.txt
 cat hello.txt
 git add hello.txt
 git commit -m "add heo.txt"
-git log –oneline
+git log --oneline
 git commit –amend -m "add hello.txt"   //修改最近一次的commit内容
-git log –graph –oneline                //图示查看提交
+git log –-graph –-oneline                //图示查看提交
 rm hello.txt                           //从工作区删除hello.txt
 git rm hello.txt                       //从暂存区删除hello.txt
 git commit -m "delete hello.txt"
@@ -39,7 +39,7 @@ git ls-files                           //有hello.txt
 git ls-tree HEAD                       //有hello.txt
 git checkout hello.txt                 //在工作区恢复hello.txt
 git reflog
-git reset –hard HEAD@{1}               //取消恢复，又删了
+git reset –-hard HEAD@{1}               //取消恢复，又删了
 {% endhighlight %}
 
 后边提到的，工作区是指（working directory），暂存区是指（staging area，index 在这里），版本库是指（git directory，respository,  HEAD在这里），三者的关系如下图。标签是指（tag，也有书里译为“里程碑”）
@@ -49,21 +49,21 @@ git reset –hard HEAD@{1}               //取消恢复，又删了
 
 配置名字和邮箱：
 
-	git config –global user.name "your name"
-	git config –global user.email "your email"
+	git config –-global user.name "your name"
+	git config –-global user.email "your email"
 
 设置高亮颜色：
 
-	git config –global color.ui "auto"      (Linux下)
-	git config –global color.ui "always"    (Windows下)
+	git config –-global color.ui "auto"      (Linux下)
+	git config –-global color.ui "always"    (Windows下)
  
 设置文本编辑器：
 
-	git config –global core.editor gedit.exe(常用哪个，设置哪个)
+	git config –-global core.editor gedit.exe(常用哪个，设置哪个)
 
 设置差异分析工具：
 
-	git config –global merge.tool kdiff3    (合并工具有很多种)
+	git config –-global merge.tool kdiff3    (合并工具有很多种)
  
 设置别名：（commit → ci）（可以移植习惯，有人会把Git命令别名为CVS中的相应命令）
 	
@@ -71,31 +71,31 @@ git reset –hard HEAD@{1}               //取消恢复，又删了
  
 GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/win-set-up-git/)说起）
 	
-	git config –global github.user username_in_github
-	git config –global github.token 972b0f310c66a61a0b59f949 (类似的哈希吗，具体去GitHub看看)
+	git config –-global github.user username_in_github
+	git config –-global github.token 972b0f310c66a61a0b59f949 (类似的哈希吗，具体去GitHub看看)
  
 检查上述设置是否成功：
 
-	git config –global –list
+	git config –-global –-list
 
 ### 查看信息相关：
 
 #### git log：
 
-	git log –pretty=oneline                (可以显示完整哈希码)
+	git log –-pretty=oneline                (可以显示完整哈希码)
 	git log –-oneline                      (显示哈希吗前7位，上边的简化版)
-	git log –oneline –graph –stat –decorate
+	git log –-oneline –-graph –-stat –-decorate
 
 这几个是我常用的参数，更多查看文档吧:    (git help log)
 
-	–oneline：                             单行显示;
-	–graph：                               图示显示提交历史;
-	–stat：                                显示文件修改历史;
-	–decorate：                            显示标签(Tag);
+	–-oneline：                             单行显示;
+	–-graph：                               图示显示提交历史;
+	–-stat：                                显示文件修改历史;
+	–-decorate：                            显示标签(Tag);
 
 示例指令：
 	
-	git log –oneline –graph -3
+	git log –-oneline –-graph -3
 
 #### git status -s
 
@@ -141,47 +141,47 @@ GitHub配置名字和API接口：（故事要从[这里](http://help.github.com/
 
 #### git reset
 	
-	git reset HEAD — <paths>               
+	git reset HEAD —<paths>               
 	用版本库中文件替换掉暂存区中文件夹;
 	
-	git reset –hard <commit>               
+	git reset –-hard <commit>               
 	版本库、暂存区、工作区全部一致，撤回到某个commit点;
 
 示例：
 
 	git reflog –5                          显示最近的5条操作记录
-	git reset –hard HEAD@{2}               回到HEAD@{2}前的状态,即取消最近两步操作;
+	git reset –-hard HEAD@{2}               回到HEAD@{2}前的状态,即取消最近两步操作;
    
 来个比较狠的例子，下面的两个操作(git reset –hard <commit> 和 git reset –hard HEAD@{<num>})，可以让你在任意两个点之间玩穿越，历史穿梭就是这么回事儿。。。
 
-{% highlight java %}
-$ git log –oneline –3                  //显示最近的三次commit记录
+{% highlight git %}
+$ git log –-oneline –3                  //显示最近的三次commit记录
 10ce10c second line in abc.txt
 1fed225 first line in abc.txt
 4916146 delete hello.txt
-$ git reset –hard 4916146              //从现在(10ce10c)退回到4916146
+$ git reset –-hard 4916146              //从现在(10ce10c)退回到4916146
 HEAD is now at 4916146 delete hello.txt
 $ git reflog –3                        //查看最近的操作记录
 4916146 HEAD@{0}: reset: moving to 4916146
 10ce10c HEAD@{1}: commit：second line in abc.txt
 1fed225 HEAD@{2}: commit: first line in abc.txt
-$ git reset –hard HEAD@{1}             //撤销最近的一次操作，即从4916146返回到10ce10c;
+$ git reset –-hard HEAD@{1}             //撤销最近的一次操作，即从4916146返回到10ce10c;
 HEAD is now at 10ce10c second line in abc.txt
 {% endhighlight %}
  
-git reset –soft \<commit\> 只改变版本库，不改变暂存区和工作区;
+git reset –-soft \<commit\> 只改变版本库，不改变暂存区和工作区;
 示例：
 
-	git reset –soft HEAD^        
+	git reset –-soft HEAD^        
 	撤销刚才的commit，相当于git commit的反操作
 	
-	git reset –soft HEAD^^                 
+	git reset –-soft HEAD^^                 
 	可以用来合并提交，此时git commit –m “……”可以覆盖原来最近两次的commit内容;
 
 git reset –mixed \<commit\> 改变版本库和暂存区，不改变工作区;
 实例：
 
-	git reset –mixed HEAD^                 
+	git reset –-mixed HEAD^                 
 	如果紧跟在git add + git commit后面执行这条命令,相当于git add + git commit 的反操作;
 
 	git reset .                            
@@ -229,12 +229,12 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 	git cherry-pick master^
 	从众多的提交中挑选出一个提交应用到当前的工作分支中
 
-	git rebase –onto <newbase> since till
+	git rebase –-onto <newbase> since till
 	将(since, till]嫁接到newbase上
 
 示例：
 
-	git rebase –onto C E^ F
+	git rebase –-onto C E^ F
 	将（E^, F]，即[E，F]嫁接到C上
 	
 	git cherry-pick <commit>
@@ -260,7 +260,7 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 
 	git diff                               比较, 暂存区 Vs. 工作区;
 	git diff HEAD                          比较, 版本库 Vs. 工作区;
-	git diff –cached                       比较, 版本库 Vs. 暂存区;
+	git diff –-cached                       比较, 版本库 Vs. 暂存区;
 
 
 ### 忽略文件：
@@ -270,7 +270,7 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 	> *.h
 	> EOF
 	git add .gitignore
-	git status –ignored –s                 查看已忽略文件
+	git status –-ignored –s                 查看已忽略文件
 	git add -f hello.h                     强制添加已忽略文件
  
 
@@ -282,24 +282,18 @@ git checkout <file> 用暂存区文件替换工作区文件，但并不是git ad
 	git blame README                       可以看到每次改变的来源
 	git mergetool                          利用工具解决冲突
 	git branch –r                          查看远程分支
-	git commit –amend -m "modify last commit content"         修改上次的提交内容
+	git commit –-amend -m "modify last commit content"         修改上次的提交内容
 <hr/>
 好像没怎么关注分支（branch），还没写过啥大软件，分支不起来。。
 结尾总得留点什么，上个故事吧。。
  
 >“你能告诉我，我从这儿该走哪条路吗？”爱丽丝问
-
 >“那多半儿要看你想去哪里。”猫说。
-
 >“我不在乎去哪儿— —”爱丽丝说。
-
 >“那么你走哪条路都没关系，”猫说。
-
 >“— —只要能到这个地方就行，”爱丽丝解释。
-
 >“奥，当然，你总能到个地方”，猫说，“只要你走得够远。”
-
->-- Lewis Carroll：《爱丽丝漫游奇境》
+>   -- Lewis Carroll：《爱丽丝漫游奇境》
 
 [1]: /uploads/2012/04/git_octocats.png
 [2]: /uploads/2012/04/git_operation.png
