@@ -17,9 +17,9 @@ permalink: /about/
 #### About me
 Wei Li / Terence
 
-Undergraduate, Hangzhou Dianzi University
+Bachelor, Hangzhou Dianzi University
 
-Master, CS, George Washington University (in school)
+Master, CS, The George Washington University (In Progress)
 
 #### Contact me
 
