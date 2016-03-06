@@ -17,7 +17,7 @@ tags:
 
 ![Maple Leaves 0][maple_leaves_0]
 
-公墓是个极其静穆的地方，枫叶金黄映着成排的石碑，仿佛逝者生时的灿烂。
+公墓是个极其静穆的地方，成排的石碑也被映的金黄，仿佛生时的灿烂。
 
 ![Maple Leaves 1][maple_leaves_1]
 
