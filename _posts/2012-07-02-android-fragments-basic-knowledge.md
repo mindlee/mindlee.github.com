@@ -382,7 +382,7 @@ DetailsFragment details = (DetailsFragment) getFragmentManager()
 
 此工程中的其他文件没特殊之处，比如AndroidManifext.xml文件。
 
-完整工程@Github，代码打包：《[FragmentBasics](https://github.com/wliday/FragmentBasics/downloads)》
+完整工程@Github，代码打包：《[FragmentBasics](https://github.com/wliday/android-tutorial/tree/master/FragmentBasics)》
 
 参考资料：
 
