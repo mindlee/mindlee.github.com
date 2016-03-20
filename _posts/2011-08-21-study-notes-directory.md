@@ -59,6 +59,8 @@ tags:
 
 第三十三章：计算几何学   《[计算几何学(Computational Geometry)](/2011/11/27/computational-geometry/)》
 
+**备注：所有的代码我都打包放到了 [Github](https://github.com/wliday/clrs_c_implementation) 上。**
+
 
 ### 推荐几本其他算法教材：
 
