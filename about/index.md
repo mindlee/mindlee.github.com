@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-meta_description: Terry Lee, Working in Hangzhou, Hangzhou Dianzi University
+meta_description: Wei Li {Terence}, George Washington University, Hangzhou Dianzi University
 permalink: /about/
 ---
 
