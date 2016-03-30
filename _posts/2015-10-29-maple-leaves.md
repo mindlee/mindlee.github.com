@@ -2,7 +2,8 @@
 title: 秋日枫叶
 author: Wei Li
 layout: post
-meta_description: 枫叶从从浅到深有很多种颜色，有的已赤红，有的金黄，有的刚刚从叶子边缘开始变黄。
+meta_description: 昨晚下了一场大雨，院子里的树叶几近打光，走在路上，满脚都是落叶。下午去学校时忘带电脑，心想，要不就趁着机会去看看枫叶吧。
+
 categories:
   - 美国生活
 tags:
