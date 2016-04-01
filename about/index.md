@@ -27,7 +27,6 @@ Find me on [LinkedIn][linkedin] / [Github][github] / [Zhihu][zhihu] / [Douban][d
 [liwei.day(at)gmail.com](mailto:liwei.day@gmail.com).
 
 
-
 <br/>
 
 
