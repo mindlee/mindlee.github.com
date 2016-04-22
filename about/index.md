@@ -23,8 +23,11 @@ Master, CS, The George Washington University (In Progress)
 
 #### Contact me
 
-Find me on [LinkedIn][linkedin] / [Github][github] / [Zhihu][zhihu] / [Douban][douban] / [500px][500px] or just say `Hello` at 
+Find me on [LinkedIn][linkedin] / [Github][github] / [Zhihu][zhihu] / [Douban][douban] / [500px][500px] / [Facebook][facebook] / [Twitter][twitter] or just say `Hello` at 
 [liwei.day(at)gmail.com](mailto:liwei.day@gmail.com).
+
+私人微信/WeChat：mindlee
+Instagram/Facebook/Twitter: wliday
 
 
 <br/>
@@ -42,4 +45,6 @@ Find me on [LinkedIn][linkedin] / [Github][github] / [Zhihu][zhihu] / [Douban][d
 [zhihu]: http://www.zhihu.com/people/wliday
 [500px]: https://500px.com/wliday
 [wechat]: /uploads/2015/10/wechat.jpg
+[facebook]: https://facebook.com/wliday
+[twitter]: https://twitter.com/wliday
 
