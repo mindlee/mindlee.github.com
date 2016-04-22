@@ -27,6 +27,7 @@ Find me on [LinkedIn][linkedin] / [Github][github] / [Zhihu][zhihu] / [Douban][d
 [liwei.day(at)gmail.com](mailto:liwei.day@gmail.com).
 
 私人微信/WeChat：mindlee
+
 Instagram/Facebook/Twitter: wliday
 
 
