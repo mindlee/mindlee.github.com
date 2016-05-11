@@ -30,7 +30,7 @@ Drawable Animation的作用是连续展示一帧一帧的图片资源（存放�
 5. Frame refresh delay：多少时间刷新一次，即每隔多少时间计算一次属性值，默认为10ms，最终刷新时间还受系统进程调度与硬件的影响 。
 
 Protery Animation的工作流程如图：
-![Image](http://mindlee.net/wp-content/uploads/2012/07/valueanimator.png)
+![Image](/uploads/2012/07/valueanimator.png)
 
 可以看到一个 ValueAnimator（Value 动画生成器）里包括，一个TimeInterpolator（插值器，稍后会有介绍），一个TypeEvaluator（类型求值器，稍后会介绍），duration（持续时间），startPropertyValue（动画开始时的属性值），endPropertyValue（结束时的属性值），start()（动画开始）；
 
